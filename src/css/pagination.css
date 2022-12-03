@@ -1,0 +1,32 @@
+.pagination {
+    padding: 16px 0 32px;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.pagination ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.pagination a {
+    padding: 8px;
+    min-width: 38px;
+    text-decoration: none;
+    color: inherit;
+    display: block;
+
+}
+
+.pagination a:hover,
+.pagination .active a {
+    color: #fff;
+    background-color: #000;
+}
+
+.pagination .active a:hover {
+    background-color: #ccc;
+}

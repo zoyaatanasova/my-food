@@ -1,0 +1,12 @@
+@import './general.css';
+@import './xs.css';
+@import './sm.css';
+@import './md.css';
+@import './lg.css';
+@import './xl.css';
+@import './header.css';
+@import './nav.css';
+@import './sections.css';
+@import './item.css';
+@import './pagination.css';
+@import './footer.css';

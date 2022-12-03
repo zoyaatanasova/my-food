@@ -1,0 +1,26 @@
+.section-menu {
+    text-align: center;
+    padding-bottom: 32px;
+}
+
+.section-menu .shell {
+    border-bottom: 1px solid #ccc;
+}
+
+.section-menu h2 {
+    font-weight: normal;
+}
+
+.section-about {
+    text-align: center;
+    padding-bottom: 48px;
+}
+
+.section-about .shell {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 48px;
+}
+
+.section-about h2 {
+    font-weight: normal;
+}

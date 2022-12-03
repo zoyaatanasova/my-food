@@ -1,0 +1,39 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Karma", sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+	background-color: #fff;
+	color: #000;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.shell {
+	max-width: 1170px;
+	margin: auto;
+}
+
+.container {
+	padding: 0 16px;
+}
+
+.row {
+	margin: 0 -8px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+[class*="col-"] {
+	padding: 0 8px;
+	flex-grow: 0;
+	flex-shrink: 0;
+}

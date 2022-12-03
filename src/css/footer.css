@@ -1,0 +1,78 @@
+.footer {
+    padding: 32px 0;
+}
+
+.footer h2 {
+    font-weight: normal;
+}
+
+.footer p a {
+    color: #000;
+}
+
+.blogposts ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.blogposts li+li {
+    border-top: 1px solid #ccc;
+}
+
+.blogposts a {
+    text-decoration: none;
+    color: #000;
+    padding: 16px;
+    display: block;
+    overflow: hidden;
+}
+
+.blogposts img {
+    width: 50px;
+    height: auto;
+    float: left;
+    margin-right: 16px;
+}
+
+.blogposts p,
+.blogposts h5 {
+    margin: 0;
+}
+
+.blogposts h5 {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.blogposts a:hover {
+    background-color: #ccc;
+}
+
+.tags {
+    font-size: 12px;
+}
+
+.tags ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tags li {
+    padding: 0 4px 12px 0;
+}
+
+.tags a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #333;
+    padding: 4px 8px 2px;
+    display: block;
+}
+
+.tags a:hover {
+    background-color: #000;
+}

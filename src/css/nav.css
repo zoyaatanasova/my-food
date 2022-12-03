@@ -1,0 +1,88 @@
+.nav__toggle {
+    width: 36px;
+    height: 36px;
+    padding: 0;
+    border: 0;
+    background: none;
+    border-radius: 0;
+    box-shadow: none;
+    appearance: none;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}
+
+.nav__toggle span {
+    width: 21px;
+    height: 2px;
+    background-color: #000;
+    display: block;
+    margin: 3px 0;
+    opacity: 1;
+    transform: rotate(0deg);
+    position: relative;
+    top: 0;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
+    transition-property: opacity, transform, top;
+}
+
+.nav__toggle.active span:first-child {
+    transform: rotate(135deg);
+    top: 8px;
+}
+
+.nav__toggle.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.nav__toggle.active span:last-child {
+    transform: rotate(-135deg);
+    top: -8px;
+}
+
+.nav {
+    font-size: 24px;
+    position: fixed;
+    top: 68px;
+    bottom: 0;
+    left: 0;
+    width: 35vw;
+    min-width: 200px;
+    z-index: 40;
+    background-color: #fff;
+    box-shadow: 2px 0 4px rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    transform: translateX(-100%);
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
+    transition-property: opacity, transform;
+}
+
+.nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 16px;
+}
+
+.nav li {
+    padding-bottom: 16px;
+
+}
+
+.nav li:last-child {
+    padding-bottom: 0;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #000;
+}
+
+.nav.active {
+    opacity: 1;
+    transform: translateX(0);
+}
